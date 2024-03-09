@@ -1,0 +1,61 @@
+.form
+{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+    margin-top: 10em;
+    margin: auto;
+    background: rgba(36,30,149,0.5);
+    background: linear-gradient(180deg, rgba(36,30,149,0.5) 52%, rgba(21,106,193,0.5) 72%, rgba(0,212,255,0.5) 100%);
+    border-radius: 2em;
+    box-shadow: 10px 10px 10px rgb(47, 47, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label
+{
+    font-weight: bolder;
+}
+input
+{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    padding-left: 5px;
+    border-radius: 1em;
+    height: 2em;
+    font-weight: bold;
+    outline-color: rgba(36,30,149,0.5);
+}
+h1
+{
+    text-align: center;
+}
+.alert
+{
+    color: red;
+}
+button +.alert{
+    color: greenyellow;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1em;
+}
+body
+{
+    background-image: url(Stars\ Train\ GIF\ -\ Stars\ Train\ Pixel\ Art\ -\ Discover\ &\ Share\ GIFs.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center
+{
+   margin-top:10%;
+}
